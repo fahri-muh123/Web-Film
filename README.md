@@ -58,7 +58,7 @@ Akses `http://localhost:3000`
 npm install tailwindcss @tailwindcss/vite
 ```
 6. **Konfigurasi Tailwind CSS di file vite.config.js**
-
+```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -73,11 +73,11 @@ export default defineConfig({
     open: true
   }
 })
-
+```
 7. **Update file index.css**
-
+```
 @import "tailwindcss";
-
+```
 ## 📁 Struktur Penting Project
 
 ```
